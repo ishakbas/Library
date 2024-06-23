@@ -1,0 +1,19 @@
+﻿<Page x:Class="Library.Pages.MainAdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainAdminPage">
+
+    <StackPanel Height="196" VerticalAlignment="Center" Margin="200,0,200,0" Background="White" >
+        <TextBlock Name="ManagerAdminLabel" Text="Панель" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="24"/>
+        <Button Content="Управление товарами" Click="NavigateProducts"/>
+        <Button Content="Оформить заказ" Click="NavigateNewOrder"/>
+        <Button Content="Управление заказами" Click="NavigateOrders" />
+        <Button Content="Зарегистрировать в промо-кампании" Click="NavigateRegisterPromo" />
+        <Button Name="AddUsersButton" Content="Добавить пользователей" Click="NavigateAddUser" />
+    </StackPanel>
+</Page>

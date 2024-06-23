@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cbfc0485906f4c3dbeb7cff2946be179" Name="Diagram1">
+        <EntityTypeShape EntityType="Basyrov_diplomModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Детали_заказа" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Жанры" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Заказы" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Издатели" Width="1.5" PointX="0.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Клиенты" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Книги" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Пользователи" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Сотрудники" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Способы_оплаты" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Статусы_заказа" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.HistoryCost" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Детали_заказа_Заказы" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Детали_заказа_Книги" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Книги_Жанры" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Заказы_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Заказы_Сотрудники" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Заказы_Способы_оплаты" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Заказы_Статусы_заказа" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_Книги_Издатели" ManuallyRouted="false" />
+        <AssociationConnector Association="Basyrov_diplomModel.FK_HistoryCost_Книги1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Basyrov_diplomModel.Заказы_клиента" Width="1.5" PointX="7.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
