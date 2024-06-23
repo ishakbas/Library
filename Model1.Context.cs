@@ -18,7 +18,6 @@ namespace Library
     public partial class Basyrov_diplomEntities : DbContext
     {
         private static Basyrov_diplomEntities instance;
-
         public static Basyrov_diplomEntities Instance()
         {
             if (instance == null)
